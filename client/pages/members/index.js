@@ -1,5 +1,10 @@
-import React from "react";
+import Link from "next/link";
 
-export default function Members() {
-  return <div>Members</div>;
+export default function MembersPage() {
+  return (
+    <div>
+      <h1>Members</h1>
+      <Link href="/">Home</Link>
+    </div>
+  );
 }
