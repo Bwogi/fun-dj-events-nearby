@@ -1,4 +1,4 @@
-import Layout from "../../components/Layout";
+import Layout from "@components/Layout";
 export default function AddMemberPage() {
   return (
     <Layout title="Add new member">
