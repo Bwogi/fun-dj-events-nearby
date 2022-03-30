@@ -5,7 +5,6 @@ export default function MembersPage() {
   return (
     <Layout title="The Members">
       <h1>Members</h1>
-      <Link href="/">Home</Link>
     </Layout>
   );
 }
