@@ -1,3 +1,9 @@
+import Link from "next/link";
 export default function ContactPage() {
-  return <div>contact</div>;
+  return (
+    <div>
+      <h1>Contact</h1>
+      <Link href="/">Home</Link>
+    </div>
+  );
 }
