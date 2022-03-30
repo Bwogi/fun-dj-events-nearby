@@ -1,9 +1,10 @@
 import Link from "next/link";
+import Layout from "../components/Layout";
 export default function ContactPage() {
   return (
-    <div>
+    <Layout>
       <h1>Contact</h1>
       <Link href="/">Home</Link>
-    </div>
+    </Layout>
   );
 }
